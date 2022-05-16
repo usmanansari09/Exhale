@@ -1,0 +1,43 @@
+.stepper-containe {
+  font-family: 'Raleway' !important;
+}
+
+.stepper-container .stepper-item .stepper-title {
+  font-size: 10px;
+}
+
+.stepper-item-outer:nth-of-type(odd) {
+  border: 0px solid #c8cacb;
+  width: 17px;
+  height: 17px;
+}
+
+.stepper-item-outer:nth-of-type(odd) .stepper-item-inner {
+  width: 17px !important;
+  height: 17px !important;
+}
+
+.stepper-item-inner-active {
+  background-color: #3f8ac5;
+}
+
+.stepper-item-outer:nth-of-type(even) {
+  height: 0px;
+  border: 0.1px solid #3f8ac5;
+  width: 56px;
+}
+
+.stepper-container .stepper-item .stepper-title {
+  font-family: 'Raleway' !important;
+  transform: translate(-45%, 5px);
+}
+
+.projectCounter {
+  position: absolute;
+  top: 50px;
+  left: -12px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #3f8ac5;
+  cursor: pointer;
+}

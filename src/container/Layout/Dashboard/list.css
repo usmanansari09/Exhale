@@ -1,0 +1,149 @@
+.main_exercise {
+  background-color: whitesmoke;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.header_wrapper {
+  display: flex;
+  margin-left: 50px;
+}
+.btn_round button {
+  padding: 10px;
+  border: 1px solid #284eda;
+  border-radius: 30px;
+  color: #284eda;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 500;
+}
+.ml {
+  margin-left: 30px;
+}
+.btn-grey button {
+  border: 1px solid #b6b6b6 !important;
+  background-color: white;
+  color: #717273 !important;
+  padding: 10px;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.all-exercises {
+  background-color: white;
+  border-radius: 15px;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+.wrapper_container {
+  width: 250px;
+  position: relative;
+}
+.play-btn {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}
+.exe-img1 {
+  width: 250px;
+  border-radius: 15px;
+}
+
+.all_item2 {
+  margin-left: 20px;
+}
+.all_items {
+  display: flex;
+  max-width: 95%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.all_item2_1_2 {
+  margin-left: 15px;
+}
+.all_item2_1 {
+  display: flex;
+  justify-content: space-between;
+}
+.overview {
+  margin-top: 25px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.e-detail {
+  margin-top: 5px;
+  font-size: 13px;
+}
+.incomplete {
+  margin-left: 15px;
+  color: #ec9d33;
+  font-weight: 400;
+}
+.video_container {
+  width: 250px !important;
+}
+.player__wrapper {
+  height: 170px !important;
+  width: 250px !important;
+}
+.item-day {
+  font-size: 20px;
+  font-weight: bold;
+}
+.all-exercises:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+.compl {
+  color: #21d803 !important;
+}
+@media (max-width: 992px) {
+  .header_wrapper {
+    display: flex;
+    margin-left: 50px;
+    /* max-width: 50%; */
+    flex-wrap: wrap;
+  }
+  .ml {
+    margin-left: 0;
+  }
+  .btn-grey button {
+    margin-top: 10px;
+  }
+  .btn_round button {
+    margin-top: 10px;
+  }
+  .all_items {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 570px) {
+  .wrapper_container {
+    width: 100%;
+  }
+  .exe-img1 {
+    width: 95%;
+    margin-left: 10px;
+  }
+  .all_item1 {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .btn-grey button {
+    font-size: 13px;
+  }
+  .btn_round button {
+    font-size: 13px;
+  }
+  .header_wrapper {
+    max-width: 100%;
+  }
+  .header_wrapper {
+    display: flex;
+    margin-left: 25px;
+  }
+}

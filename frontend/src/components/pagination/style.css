@@ -1,0 +1,19 @@
+.page-link {
+    position: relative;
+    display: block;
+    padding: .2rem .5rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #3f8ac5;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.page-item.disabled .page-link {
+    color: #000000;
+}
+
+.page-item.active .page-link {
+    background-color: #3f8ac5;
+    border-color: #3f8ac5;
+}

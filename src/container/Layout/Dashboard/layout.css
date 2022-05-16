@@ -1,0 +1,34 @@
+.main__wrapper {
+  display: flex;
+  /* background-color: whitesmoke; */
+}
+.content__wrapper {
+  width: 100%;
+  background: whitesmoke;
+}
+@media (min-width: 1700px) {
+  .routes_wrapper {
+    left: 288px;
+  }
+}
+@media (max-width: 768px) {
+  .routes_wrapper {
+    left: 200px;
+  }
+}
+@media (max-width: 570px) {
+  .routes_wrapper {
+    top: 120px;
+  }
+  .sidebar-profile {
+    height: 120px;
+  }
+}
+
+@media (max-width: 470px) {
+  .routes_wrapper {
+    left: 20px;
+    top: 150px;
+    max-width: 90%;
+  }
+}

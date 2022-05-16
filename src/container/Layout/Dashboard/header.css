@@ -1,0 +1,341 @@
+.header__img {
+  display: flex;
+  margin-top: 15px;
+}
+.header__title {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-weight: 500;
+  color: #ec9d33;
+}
+.header__title .name {
+  color: #1d3565;
+  text-transform: capitalize;
+}
+.header__logout button {
+  width: 134px;
+  height: 47px;
+  font-family: Helvetica Now Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #284eda;
+  border: 1px solid #284eda;
+  border-radius: 70px;
+  background-color: white;
+  margin-top: 15px;
+}
+.header__content {
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header__profile {
+  border-left: 1px solid lightgray;
+  padding-bottom: 15px;
+  background-color: white;
+}
+
+.profile__img {
+  cursor: pointer;
+}
+
+.profile__edit .modal-content {
+  position: relative;
+  left: -211px;
+  top: -40px;
+  width: 300px;
+  padding-bottom: 5px;
+}
+.profile__edit .modal-body {
+  padding: 0 !important;
+}
+.prifle-d-wrapper {
+  display: flex;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.d-item2 {
+  margin-left: 20px;
+}
+.d-item2-name {
+  font-weight: bold;
+}
+.d-item2-email {
+  color: #717273;
+}
+.profile-d-btn button {
+  width: 100%;
+  margin: 0 auto;
+  height: 45px;
+  border-radius: 25px;
+  margin-top: 25px;
+  border: 1px solid #284eda;
+  background-color: #ebebeb;
+  color: #284eda;
+}
+.profile-d-btn {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.d-btn-text {
+  margin-left: 5px;
+  font-weight: 500;
+}
+.d-hr {
+  margin-top: 35px;
+}
+.d-c1 {
+  margin-left: 15px;
+}
+
+.profile-i-items {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.ReactCrop__image {
+  display: block;
+  -ms-touch-action: none;
+  touch-action: none;
+}
+.input-border {
+  position: relative;
+}
+.input-icon {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}
+.modal-input input[type='file'] {
+  display: none;
+}
+.drag-txt {
+  position: relative;
+  left: -50px;
+}
+.browse-txt {
+  position: relative;
+  left: -25px;
+  color: #284eda;
+  font-weight: 500;
+}
+
+.mute_clr {
+  color: #717273;
+}
+.profile-modal-header {
+  max-width: 93%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-input {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.crop-imag-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.drag-text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.d-txt {
+  margin-left: 10px;
+}
+
+.change-p-text {
+  color: #284eda;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.p-text {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.p-cross img {
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .profile__edit .modal-content {
+    left: 0;
+    top: -125px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .header__logout button {
+    width: 90px;
+    font-size: 13px;
+    height: 40px;
+  }
+}
+
+.mobile-menu {
+  visibility: hidden;
+}
+
+@media (max-width: 340px) {
+  .header__img img {
+    width: 45px;
+  }
+}
+
+@media (max-width: 991px) {
+  .mobile-menu {
+    visibility: visible;
+  }
+  .sidebar_wrapper {
+    display: none;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  width: auto;
+}
+
+.logo-image img {
+  width: 79px;
+  height: auto;
+}
+
+.logo-img-user {
+  z-index: 9999;
+  border: 1px solid #707070;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.circle-card-user {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #d2eaff;
+  position: relative;
+  z-index: 9999;
+  border: 1px solid #707070;
+  margin-top: 0.3rem;
+  margin-right: 5px;
+}
+
+.text-card-user {
+  position: absolute;
+  width: inherit;
+  height: auto;
+  top: 50%;
+  transform: translate(-6%, -49%);
+  text-align: center;
+}
+
+.imgName-user {
+  font-size: 16px;
+  font-weight: 400;
+  color: #3f8ac5;
+  text-transform: uppercase;
+}
+
+/* ///////////DROP DOWN CSS */
+.dropdown-menu {
+  background-color: #fafafa;
+  box-shadow: 0px 3px 6px #00000033;
+  border-radius: 8px;
+  border: 0px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-item {
+  padding: 0.25rem 1rem;
+}
+
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #fafafa;
+}
+
+.drop-btn {
+  font-family: Helvetica Now Display;
+  margin: 10px 0px;
+  height: 45px;
+  width: 356px;
+  border-radius: 49px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  background: #ffffff;
+  color: #284eda;
+  border-radius: 49px;
+  border: 1px solid #284eda;
+}
+
+.media_imgIcon {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important ;
+}
+
+.media-title {
+  font-weight: 500;
+  color: #2e3034;
+  text-transform: capitalize;
+}
+
+.media-mute {
+  font-family: Helvetica Now Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+  /* Secondary text */
+
+  color: #717273;
+}
+
+.media-subtitle {
+  font-family: Helvetica Now Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+  /* Secondary text */
+
+  color: #2e3034;
+}
+
+/* //////// Mobile responsive */
+@media (max-width: 576px) {
+  .logo-image {
+    margin-left: 0rem;
+  }
+  /* TODO: keeping this css for future work */
+  /* .logo-image img{
+        width: 90px;
+        height: auto;  
+    } */
+}

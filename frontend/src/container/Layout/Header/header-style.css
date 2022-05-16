@@ -1,0 +1,146 @@
+.navbar {
+  margin: 2rem 2rem;
+  background-color: #fff !important;
+  /* box-shadow: 0px 3px 6px #c5bfbf; */
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    align-items: center;
+    align-self: center;
+  }
+}
+
+.navbar_button {
+  width: 134px;
+  height: 47px;
+  font-family: Helvetica Now Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #284eda;
+  border: 1px solid #284eda;
+  border-radius: 70px;
+  background-color: white;
+}
+
+.navbar_button2 {
+  width: 263px;
+  height: 47px;
+}
+
+.logo_text {
+  font-family: Helvetica Now Display;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  color: #1d3565;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 19px;
+  letter-spacing: 0px;
+  color: #3f8ac5;
+  padding: 0px 12px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #3f8ac5;
+  text-decoration: underline;
+}
+
+.navbar-toggler {
+  width: auto;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-image svg {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+}
+
+.logo-img-user {
+  z-index: 9999;
+  border: 1px solid #707070;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.circle-card-user {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #d2eaff;
+  position: relative;
+  z-index: 9999;
+  border: 1px solid #707070;
+  margin-top: 0.3rem;
+  margin-right: 5px;
+}
+
+.text-card-user {
+  position: absolute;
+  width: inherit;
+  height: auto;
+  top: 50%;
+  transform: translate(-6%, -49%);
+  text-align: center;
+}
+
+.imgName-user {
+  font-size: 16px;
+  font-weight: 400;
+  color: #3f8ac5;
+  text-transform: uppercase;
+}
+
+/* ///////////DROP DOWN CSS */
+.dropdown-menu {
+  background-color: #fafafa;
+  box-shadow: 0px 3px 6px #00000033;
+  border-radius: 8px;
+  border: 0px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-item {
+  padding: 0.25rem 1rem;
+}
+
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #fafafa;
+}
+
+.dropdown_btn {
+  width: 100%;
+  background: #ffe9db 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 8px;
+  border: 0px;
+  font-size: 18px;
+  padding: 10px 50px;
+}
+
+/* //////// Mobile responsive */
+@media (max-width: 576px) {
+  .logo-image {
+    margin-left: 0rem;
+  }
+  /* TODO: keeping this css for future work */
+  /* .logo-image img{
+        width: 90px;
+        height: auto;  
+    } */
+}

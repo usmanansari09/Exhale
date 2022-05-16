@@ -1,0 +1,10 @@
+*.pyc
+env/
+.terraform
+.env
+staticfiles/
+postgres-data/
+client/
+series/
+static/samples
+sittostand/

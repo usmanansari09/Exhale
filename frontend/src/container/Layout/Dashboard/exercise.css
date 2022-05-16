@@ -1,0 +1,57 @@
+.exercise-wrapper{
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.exe-img{
+    width: 100%;
+
+}
+.e-d1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.fa-check{
+    margin-right: 15px;
+    color: #EC9D33 ;
+}
+.fa-checked{
+    color: black !important ;
+
+}
+.check-btn{
+    width: 180px;
+    border: 1px solid #EC9D33    ;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #EC9D33 ;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.press-btn{
+    background-color: #EC9D33 !important;
+    color: black !important;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 180px;
+    border: 1px solid #EC9D33    ;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.play-btn{
+    top: -355px;
+    left: 50%;
+    position: relative;
+    cursor: pointer;
+}
+.player-wrapper {
+    width: 100% !important;
+    height: 415px !important;
+}

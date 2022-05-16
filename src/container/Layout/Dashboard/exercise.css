@@ -1,0 +1,175 @@
+.exercise-wrapper {
+  margin: 0 auto;
+  padding-top: 40px;
+  background-color: whitesmoke;
+  padding-bottom: 50px;
+}
+.exercise-wrapper p {
+  margin-left: 50px;
+}
+.exe-img {
+  width: 95%;
+  border-radius: 10px;
+}
+.e-d1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.image-container {
+  position: relative;
+  margin-left: 50px;
+}
+.exercise-detail {
+  max-width: 91%;
+  margin: 0 auto;
+}
+
+.exercis-overview {
+  max-width: 88%;
+  margin-top: 70px;
+}
+
+.exercis-overview div {
+  max-width: 88%;
+  margin-left: 50px;
+  font-weight: 500;
+}
+.exercis-overview p {
+  margin-top: 20px;
+}
+.play-btn {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}
+.fa-check {
+  margin-right: 15px;
+  color: #ec9d33;
+}
+.fa-checked {
+  color: black !important ;
+}
+.check-btn {
+  width: 180px;
+  border: 1px solid #ec9d33;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #ec9d33;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.press-btn {
+  background-color: #ec9d33 !important;
+  color: black !important;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 180px;
+  border: 1px solid #ec9d33;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.player-wrapper {
+  width: 100% !important;
+  height: 415px !important;
+}
+
+/* ----responsivenes----- */
+
+@media (max-width: 992px) {
+  .exercise-detail {
+    max-width: 86%;
+  }
+}
+
+@media (max-width: 768px) {
+  .menue-list {
+    width: 170px;
+    height: 50px;
+  }
+  .m1 div {
+    margin-left: 16px;
+  }
+  .fa-home {
+    color: white;
+    font-size: 19px;
+  }
+  .exercise-detail {
+    max-width: 80%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 570px) {
+  .p2 button {
+    width: 100px;
+  }
+  .image-container {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 470px) {
+  .menue-list {
+    width: 180px;
+    height: 50px;
+  }
+  .m1 div {
+    margin-left: 10px;
+    font-size: 13px;
+  }
+  .fa-home {
+    color: white;
+    font-size: 15px;
+  }
+  .p2 button {
+    width: 75px;
+    font-size: 13px;
+  }
+  .p2 button {
+    height: 35px;
+  }
+  .check-btn {
+    font-size: 12px;
+  }
+  .e-d1 {
+    flex-wrap: wrap;
+  }
+  .exercis-overview {
+    margin-top: 30px;
+  }
+  .menue-list div img {
+    width: 16px;
+  }
+  .all_item2_1 {
+    margin-top: 30px;
+  }
+  .exercise-detail {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+  .exercis-overview div {
+    margin-left: 35px;
+  }
+  .exercise-wrapper p {
+    margin-left: 35px;
+  }
+}
+@media (max-width: 400px) {
+  .e-d1 {
+    margin-left: 10px;
+  }
+
+  .image-container {
+    position: relative;
+    margin-left: 30px;
+  }
+}

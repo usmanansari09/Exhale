@@ -1,0 +1,85 @@
+.video_lists {
+  width: 250px;
+}
+.details_wrapper {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  background-color: whitesmoke;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-between;
+}
+.video_lists {
+  width: 330px;
+  background-color: white;
+  border-radius: 10px;
+}
+.video_detail {
+  max-width: 70%;
+}
+.player_wrapper {
+  width: 900px;
+}
+.video__container {
+  width: 100% !important;
+}
+.video__palylist {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 10px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.playlist__wrapper:hover {
+  background-color: #e1e7ff;
+}
+.video__palylist p {
+  font-size: 13px;
+}
+.play-list-icon {
+  width: 35px;
+  margin-top: 5px;
+}
+.exercis__overview {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.exercise__detail {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.image__container {
+  position: relative;
+  margin-left: 30px;
+}
+
+.playlist__wrapper {
+  background-color: white;
+}
+
+@media (max-width: 992px) {
+  .details_wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .video_detail {
+    max-width: 95%;
+  }
+  .video_lists {
+    width: 85%;
+  }
+}
+
+@media (max-width: 570px) {
+  .e-d1 {
+    flex-wrap: wrap;
+  }
+
+  .image__container {
+    margin-left: 0px;
+  }
+}

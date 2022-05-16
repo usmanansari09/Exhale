@@ -1,0 +1,302 @@
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: local('Helvetica Now Display'),
+    url(./fonts/HelveticaNowDisplay-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  font-weight: 400;
+  src: local('Helvetica Now Display'), url(./fonts/HelveticaNowDisplay-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  font-weight: 500;
+  src: local('Helvetica Now Display'),
+    url(./fonts//HelveticaNowDisplay-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica Now Display';
+  font-weight: 800;
+  src: local('Helvetica Now Display'), url(./fonts/HelveticaNowDisplay-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  font-weight: 900;
+  src: local('Helvetica Now Display'),
+    url(./fonts//HelveticaNowDisplay-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display';
+  font-weight: 900;
+  src: local('Helvetica Now Display'), url(./fonts/HelveticaNowDisplay-Black.ttf) format('truetype');
+}
+
+html,
+body {
+  margin: 0;
+  font-family: 'Helvetica Now Display' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  overflow-x: hidden;
+  height: 100% !important;
+}
+
+code {
+  font-family: 'Helvetica Now Display' !important;
+}
+
+img {
+  object-fit: cover;
+}
+
+label {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: underline;
+  color: #284eda;
+  font-weight: 500;
+}
+:focus {
+  outline: 0;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #c5c5c5;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #c5c5c5;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #c5c5c5;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #c5c5c5;
+}
+
+.swal-custom {
+  will-change: none !important;
+}
+
+button:focus {
+  outline: 0px dotted;
+  outline: none;
+}
+
+.nav_btn {
+  width: 151px;
+  height: 45px;
+  background: #3f8ac5;
+  border: 1px solid #3f8ac5;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+form {
+  border: 0px solid #f1f1f1 !important;
+}
+
+.error {
+  font-size: smaller;
+  color: red;
+}
+
+.hide-show {
+  position: absolute;
+  right: 15px;
+  color: #3f8ac5;
+}
+
+/* ///////  LOADER CSS */
+#overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.8;
+  z-index: 99999;
+}
+
+.loader {
+  position: absolute;
+  border: 7px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 7px solid #3498db;
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  top: 40%;
+  animation: spin 2s linear infinite;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Styling Checkbox Starts */
+.checkbox-label {
+  display: block;
+  position: relative;
+  margin: auto;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  clear: both;
+}
+
+.checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox-label .checkbox-custom {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 18px;
+  width: 18px;
+  background-color: transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  border: 2px solid #747474;
+}
+
+.checkbox-label input:checked ~ .checkbox-custom {
+  background-color: #3f8ac5;
+  border-radius: 5px;
+  -webkit-transform: rotate(0deg) scale(1);
+  -ms-transform: rotate(0deg) scale(1);
+  transform: rotate(0deg) scale(1);
+  opacity: 1;
+  border: 2px solid #3f8ac5;
+}
+
+.checkbox-label .checkbox-custom::after {
+  position: absolute;
+  content: '';
+  left: 12px;
+  top: 12px;
+  height: 0px;
+  width: 0px;
+  border-radius: 5px;
+  border: solid #009bff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(0deg) scale(0);
+  -ms-transform: rotate(0deg) scale(0);
+  transform: rotate(0deg) scale(0);
+  opacity: 1;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+.checkbox-label input:checked ~ .checkbox-custom::after {
+  -webkit-transform: rotate(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
+  opacity: 1;
+  left: 4px;
+  top: 0px;
+  width: 6px;
+  height: 12px;
+  border: solid #ffffff;
+  border-width: 0 2px 2px 0;
+  background-color: #3f8ac5;
+  border-radius: 0;
+}
+
+/* /////////////////////TABLE CSS  */
+.table thead th,
+.table td {
+  font-size: 15px;
+}
+
+/* Change Autocomplete styles in Chrome*/
+/* input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 0px solid none;
+  -webkit-text-fill-color: none;
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  transition: background-color 5000s ease-in-out 0s;
+} */
+
+/*
+ *  scrool bars 
+ */
+
+#style_1::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+#style_1::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+
+#style_1::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #d2eaff;
+}
+
+#style_2::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+#style_2::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+
+#style_2::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ffe9db;
+}

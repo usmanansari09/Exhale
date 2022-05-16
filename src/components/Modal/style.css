@@ -1,0 +1,39 @@
+.modal-content {
+  border: 0 solid rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  box-shadow: 0 3px 6px #dadada;
+}
+
+.modal-backdrop {
+  background-color: #f2f2f2;
+}
+
+.modal-header {
+  border-bottom: 0px solid #dee2e6;
+  padding: 0rem 2rem;
+}
+
+.modalTitle {
+  color: #242424;
+  font-family: Helvetica Now Display;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+#close_icon {
+  color: #284eda;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+hr {
+  box-sizing: content-box;
+  width: 100%;
+  overflow: visible;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+hr.new3 {
+  border-top: 1px solid #e9ecef;
+}

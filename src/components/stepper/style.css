@@ -1,0 +1,36 @@
+.stepper-item-outer:nth-of-type(odd) {
+  border: 1px solid #c8cacb;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.stepper-item-outer:nth-of-type(odd) .stepper-item-inner {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  color: #707070;
+  font-size: small;
+  background: transparent;
+}
+
+.stepper-item-inner-active {
+  border: 1px solid #ec9d33;
+  width: 38px !important;
+  height: 38px !important;
+}
+
+.stepper-item-inner-completed {
+  background-color: #ec9d33 !important;
+  color: black !important;
+}
+
+.stepper-item-outer:nth-of-type(even) {
+  border: 0.5px solid #d4d4d4 !important;
+  width: 60px !important;
+  margin: 0px 16px !important;
+}

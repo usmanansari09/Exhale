@@ -1,0 +1,104 @@
+.page_main {
+  /* width: 440px; */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+input,
+textarea,
+select {
+  font-family: 'Helvetica Now Display';
+  font-size: 16px;
+  font-weight: 400;
+  color: #000;
+  width: 100%;
+  padding: 14px 12px;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #b6b6b6;
+  border-radius: 8px;
+}
+
+label {
+  color: #717273;
+  font-family: Helvetica Now Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+input,
+textarea:focus-within {
+  outline: none;
+}
+
+.login_text {
+  font-family: Helvetica Now Display;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.login_text a {
+  font-weight: 500;
+  text-decoration: underline;
+  color: #284eda;
+  margin: 0px 5px;
+}
+
+input[type='checkbox'] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  transform: scale(1.5);
+  margin: 0px 10px;
+}
+
+.remember_label {
+  font-weight: 500;
+  font-size: 16px;
+  color: #2e3034;
+  margin-left: 4px;
+}
+
+.back_btn {
+  vertical-align: middle;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.rectangle_card {
+  width: 220px;
+  height: 200px;
+  background: #3f8ac5;
+  position: relative;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.text_rectangle_card {
+  position: absolute;
+  width: inherit;
+  height: auto;
+  top: 50%;
+  transform: translate(0%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.rectangle_card:hover {
+  box-shadow: 0px 3px 6px #c5bfbf;
+}
+
+.forgotText {
+  color: #284eda;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}

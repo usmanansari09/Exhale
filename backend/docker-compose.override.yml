@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  web:
+    build:
+      context: .
+      args:
+        SECRET_KEY: XKMPeHG0T3sw5K3F4tRitPc-f_BvlDfwMtv2dvel3lv2F3bk4MK3F5I53eYeA9LJ514
+    env_file: .env
+    volumes:
+      - ./:/opt/webapp
+    ports:
+      - "8000:8000"
+  postgres:
+    environment:
+      POSTGRES_PASSWORD: Amir1343
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+  redis:
+    ports:
+      - "6379:6379"
+
+volumes: 
+  postgres-data:
+

@@ -1,0 +1,13 @@
+.error-color{
+  border-color:  red !important;
+}
+
+
+.error {
+  font-size: smaller;
+  color: red;
+  /* position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -18px; */
+}
